@@ -1,0 +1,34 @@
+body {
+    display: flex;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    border: 1px solid #dbdbdb;
+    }   
+.icons{
+    display:flex;
+    justify-content: space-between;
+}
+.names{
+    display: flex;
+    flex-direction: column;
+}
+.icons-left{
+   display: flex;
+   margin-top: 10px;
+   
+
+}
+.icons-right{
+    
+}
+.fa-regular{
+    margin-right: 5px;
+}
+.post-image img {
+    width: 500px;
+    height: 300px;
+}
