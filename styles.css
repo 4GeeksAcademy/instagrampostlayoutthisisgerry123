@@ -1,13 +1,20 @@
 body {
     display: flex;
+    justify-content: center;
+    
 }
 .post{
     display: flex;
     flex-direction: column;
-    padding: 20px;
     width: 500px;
     border: 1px solid #dbdbdb;
-    }   
+    } 
+.post-body{
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
 .icons{
     display:flex;
     justify-content: space-between;
@@ -15,15 +22,16 @@ body {
 .names{
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
 }
 .icons-left{
-   display: flex;
-   margin-top: 10px;
-   
-
+    padding-top: 16px;
+    padding-right: 16px;
 }
+
 .icons-right{
-    
+    padding-top: 16px;
+    padding-right: 16px;
 }
 .fa-regular{
     margin-right: 5px;
@@ -31,4 +39,7 @@ body {
 .post-image img {
     width: 500px;
     height: 300px;
+}
+p{
+    margin: none;
 }
